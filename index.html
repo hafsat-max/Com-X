@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Com X</title>
+  </head>
+  <body>
+    <main>
+      <aside class="aside">
+        <div class="first-item">
+          <figcaption>
+            <img src="./assets/Rectangle.svg" alt="" />
+          </figcaption>
+
+          <figcaption style="position: relative">
+            <img src="./assets/box.svg" alt="" class="dashboard" />
+            <span style="position: absolute; right: -7.5rem">Dashboard</span>
+          </figcaption>
+
+          <figcaption style="position: relative">
+            <img src="./assets/home-trend-up.svg" alt="" class="trend"/>
+            <span style="position: absolute; right: -4.7rem">Trend</span>
+          </figcaption>
+
+          <figcaption style="position: relative">
+            <img src="./assets/wallet-minus.svg" alt="" class="portfolio" />
+            <span style="position: absolute; right: -6.4rem">Portfolio</span>
+          </figcaption>
+
+          <figcaption style="position: relative">
+            <img src="./assets/profile-2user.svg" alt="" class="community" />
+            <span style="position: absolute; right: -7.7rem">Community</span>
+          </figcaption>
+
+          <figcaption style="position: relative">
+            <img src="./assets/document-text.svg" class="report" alt="" />
+            <span style="position: absolute; right: -5.7rem">Report</span>
+          </figcaption>
+        </div>
+
+        <div>
+          <figcaption>
+            <img src="./assets/setting.svg" alt="" />
+          </figcaption>
+          <figcaption>
+            <img src="./assets/exit.svg" alt="" />
+          </figcaption>
+        </div>
+      </aside>
+
+      <section id="main-section">
+        <div id="fixed-top">
+          <div id="home">
+            <p style="margin-block: 0">
+              Home <span>> </span> <span style="color: #d71e0e">Market</span>
+            </p>
+          </div>
+
+          <div id="market-div">
+            <div id="market">Market</div>
+            <div
+              style="display: flex; justify-content: space-between; gap: 0 20px"
+            >
+              <div class="page-setting">
+                <p>Page Setting</p>
+                <img src="./assets/candle.svg" alt="" style="width: 20px" />
+              </div>
+              <div class="page-setting">
+                <p>Demo</p>
+                <img src="./assets/arrow-down.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <p class="market-paragraph">
+            Lorem ipsum dolor sit amet consectetur. Adipiscing egestas
+          </p>
+
+          <section class="swiper">
+            <!-- 1 -->
+            <div class="card">
+              <h5 class="cash-p">Cash Balance</h5>
+              <div
+                style="display: flex; gap: 13px; justify-content: space-between"
+              >
+                <div>
+                  <p class="naira">₦ 8,374,763</p>
+                  <div class="decline-con">
+                    <p class="decline">Decline</p>
+                    <p class="monitored">Monitored Monthly</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./assets/graph1.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="card">
+              <h5 class="cash-p">Securities value</h5>
+              <div
+                style="display: flex; gap: 13px; justify-content: space-between"
+              >
+                <div>
+                  <h2 class="naira">₦ 8,374,763</h2>
+                  <div class="decline-con">
+                    <p class="decline">Decline</p>
+                    <p class="monitored">Monitored Monthly</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./assets/graph2.svg" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!--  3-->
+            <div class="card">
+              <h5 class="cash-p">Loan Balance</h5>
+              <div
+                style="display: flex; gap: 13px; justify-content: space-between"
+              >
+                <div>
+                  <h2 class="naira">₦ 8,374,763</h2>
+
+                  <div class="decline-con">
+                    <p class="increase">Increment</p>
+                    <p class="monitored">Monitored Monthly</p>
+                  </div>
+                </div>
+                <div>
+                  <img src="./assets/graph3.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="container-three">
+            <ul>
+              <li><a href="#">Product View</a></li>
+              <li class="book">
+                <a href="#" style="color: #D71E0E;">Order view</a>
+                <!-- <hr /> -->
+              </li>
+              <li><a href="#">Price History</a></li>
+              <li>
+                <a href="#">Open Orders <span>10</span></a>
+              </li>
+              <li>
+                <a href="#">Closed Trades <span>20</span></a>
+              </li>
+              <li>
+                <a href="#">Canceled Trades <span>20</span></a>
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+
+        <section id="price-chart">
+          <div class="flex-table">
+            <!-- first table -->
+            <table id="first-table">
+              <thead>
+                <tr>
+                  <th>Buy Board</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Product</td>
+                  <td>Quantity</td>
+                  <td style="color: #5f6d7e">Price</td>
+                  <td>Action</td>
+                </tr>
+
+                <tr>
+                  <td>Soybeans(SSBS)</td>
+                  <td>2003</td>
+                  <td>6471.39</td>
+                  <td>
+                    <span>Buy</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Paddy Rice (SPRL)</td>
+                  <td>86</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Buy</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Maize (SMAZ)</td>
+                  <td>2003</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Buy</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Fair Trade ETC (FETC)</td>
+                  <td>2003</td>
+                  <td>6,471.39</td>
+                  <td><span>Buy</span></td>
+                </tr>
+
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>2003</td>
+                  <td>6,471.39</td>
+                  <td><span>Buy</span></td>
+                </tr>
+
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>2003</td>
+                  <td>6,471.39</td>
+                  <td><span>Buy</span></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Second table -->
+            <table id="second-table">
+              <thead>
+                <tr>
+                  <th>Sell Board</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Product</td>
+                  <td>Quantity</td>
+                  <td style="color: #5f6d7e">Price</td>
+                  <td>
+                    <span style="color: #5f6d7e; background: white"
+                      >Action</span
+                    >
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Soybeans(SSBS)</td>
+                  <td>267</td>
+                  <td>6471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Paddy Rice (SPRL)</td>
+                  <td>353</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Maize (SMAZ)</td>
+                  <td>2035</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Sorghum (SSGM)</td>
+                  <td>353</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Sorghum (SSGM)</td>
+                  <td>353</td>
+                  <td>6,471.39</td>
+                  <td><span>Sell</span></td>
+                </tr>
+
+                <tr>
+                  <td>Fair Trade ETC (FETC)</td>
+                  <td>2535</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>142</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>206</td>
+                  <td>6,471.39</td>
+                  <td>
+                    <span>Sell</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div
+            style="
+              display: grid;
+              height: max-content;
+              overflow: auto;
+              flex-shrink: 0;
+              width: 100%;
+              margin: auto;
+            "
+          >
+            <table>
+              <thead>
+                <tr>
+                  <th>Trade Log</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Security</td>
+                  <td>Board</td>
+                  <td>Order Type</td>
+                  <td>Marched Price</td>
+                  <td>Quantity</td>
+                  <td>Date</td>
+                  <td>Time</td>
+                </tr>
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>X-Traded</td>
+                  <td>Sell</td>
+                  <td>1792.65</td>
+                  <td>2003</td>
+                  <td>17 Oct,2020</td>
+                  <td>07:38</td>
+                </tr>
+                <tr>
+                  <td>Paddy Rice (SPRL)</td>
+                  <td>X-traded</td>
+                  <td>Sell</td>
+                  <td>1792.65</td>
+                  <td>86</td>
+                  <td>17 Oct, 2020</td>
+                  <td>07:38</td>
+                </tr>
+                <tr>
+                  <td>Maize (SMAZ)</td>
+                  <td>OTC</td>
+                  <td>Buy</td>
+                  <td>1792.65</td>
+                  <td>2003</td>
+                  <td>17 Oct,2020</td>
+                  <td>07:38</td>
+                </tr>
+                <tr>
+                  <td>Sorghum (SSGM)</td>
+                  <td>FI</td>
+                  <td>Buy</td>
+                  <td>1792.65</td>
+                  <td>2003</td>
+                  <td>17 Oct, 2020</td>
+                  <td>07:38</td>
+                </tr>
+                <tr>
+                  <td>Fair Trade ETC (FETC)</td>
+                  <td>FI</td>
+                  <td>Buy</td>
+                  <td>1792.65</td>
+                  <td>2003</td>
+                  <td>17 Oct, 2020</td>
+                  <td>07:38</td>
+                </tr>
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>X-Traded</td>
+                  <td>Sell</td>
+                  <td>1792.65</td>
+                  <td>2003</td>
+                  <td>17 Oct, 2020</td>
+                  <td>07:38</td>
+                </tr>
+                <tr>
+                  <td>Soybeans (SSBS)</td>
+                  <td>Derivatives</td>
+                  <td>Sell</td>
+                  <td>1792.65</td>
+                  <td>2003</td>
+                  <td>17 Oct, 2020</td>
+                  <td>07:38</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="news-scroll">
+          <div class="btn">Live Market</div>
+
+          <marquee
+            direction="left"
+            behavior="infinite"
+            scrollamount="4"
+            style="flex: 1"
+          >
+            <div class="marquee-container">
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+
+              <div>
+                Soybean (SBBS)
+                <p>₦30,834.59</p>
+                <p></p>
+              </div>
+              <div>
+                Maize (SMAZ)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Paddy Rice (SPRL)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Cocoa (SCOC)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Soybean (SBBS)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Soybean (SBBS)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Soybean (SBBS)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Paddy Rice (SPRL)
+                <p>₦30,834.59</p>
+              </div>
+
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+              <div>
+                Sorghum (SSGM)
+                <p>₦30,834.59</p>
+              </div>
+            </div>
+          </marquee>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

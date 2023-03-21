@@ -1,0 +1,736 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/JXG72O2TZZZ5GVUMRFHCQDLSBYPRIWXQ/ZP6MERMWLACGBGZHTVL3PGEM4LJZTZ57/O2INHB7RBA62NQZWIAP3RS5WRI4PR4T5.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/3VAGCWMQT2A2C2GK7F5FAHGUYKLKSXPK/SYFRQABIUPT55PTOJIEEV2YMJSVV6EYS/RIR2QY5RYWK7P7XPEQY25M7LKF37GJDV.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/3VAGCWMQT2A2C2GK7F5FAHGUYKLKSXPK/SYFRQABIUPT55PTOJIEEV2YMJSVV6EYS/RIR2QY5RYWK7P7XPEQY25M7LKF37GJDV.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/3VAGCWMQT2A2C2GK7F5FAHGUYKLKSXPK/SYFRQABIUPT55PTOJIEEV2YMJSVV6EYS/RIR2QY5RYWK7P7XPEQY25M7LKF37GJDV.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/EW5HJEX6O4L64XUWQA2XU7Q6BZ3B4JA4/ZWUP4SQYHHMMSS5LFHFFBX6DXL7C3DTU/H5EOHLIZH5K7IZK6SGYJI75L4KV6FUO7.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/4VXBC3FEORAU76DL5BGHFNI55RKWXZSX/G66T76FX64HG5CN7K5FPYPNZUZ73U2XV/VIBEJS7WAALPI7YO7IOVGRTLMVQJ5RTQ.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/4VXBC3FEORAU76DL5BGHFNI55RKWXZSX/G66T76FX64HG5CN7K5FPYPNZUZ73U2XV/VIBEJS7WAALPI7YO7IOVGRTLMVQJ5RTQ.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/4VXBC3FEORAU76DL5BGHFNI55RKWXZSX/G66T76FX64HG5CN7K5FPYPNZUZ73U2XV/VIBEJS7WAALPI7YO7IOVGRTLMVQJ5RTQ.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/BLNB4FAQFNK56DWWNF7PMGTCOTZHOEII/ST3WKSSDMBK2MIQQO3MAVYWLF4FTOLFV/6IN5WOLRCYP4G4MOCOHOMXNON6Q7MDAR.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/XVUY2PHYBA6KMN4RMEMJPHQSTKCQ267G/UICOQA6KCSHFOSCPYDVVDNNCDKYFXHJB/O34WRFYO7JNWEBBA2LRV2XYRUSYXYDKH.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/XVUY2PHYBA6KMN4RMEMJPHQSTKCQ267G/UICOQA6KCSHFOSCPYDVVDNNCDKYFXHJB/O34WRFYO7JNWEBBA2LRV2XYRUSYXYDKH.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/XVUY2PHYBA6KMN4RMEMJPHQSTKCQ267G/UICOQA6KCSHFOSCPYDVVDNNCDKYFXHJB/O34WRFYO7JNWEBBA2LRV2XYRUSYXYDKH.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/OYB4CXKJQXKTNSLJMTDQOIVUL2V5EL7S/WYO2P7DQVV5RNXGMCUO2HL4RJP4VFUAS/6XPIMU23OJVRY676OG5YVJMWEHWICATX.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/QMRBNVYKDJEZ66DA22SPWH5EVVYACHCU/ZHMXHHA546NDNEHJN5RPZX5KISJY5CWF/C6VLICDGQWYKV6YT65TM5G3OVN4AOZBN.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/QMRBNVYKDJEZ66DA22SPWH5EVVYACHCU/ZHMXHHA546NDNEHJN5RPZX5KISJY5CWF/C6VLICDGQWYKV6YT65TM5G3OVN4AOZBN.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/QMRBNVYKDJEZ66DA22SPWH5EVVYACHCU/ZHMXHHA546NDNEHJN5RPZX5KISJY5CWF/C6VLICDGQWYKV6YT65TM5G3OVN4AOZBN.ttf")
+      format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/5SZVFDB7V52TI6ULVC6J3WQZQCIZVDV5/ODYPSTCUDMKSTYIPTV4CLQ7URIK7XYBJ/YS3VPNVO4B3TOJMEXDGFZQ4TLZGGSRZC.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/2UC2M25RQ2XRSGCBJRQ2G5SNXCROECQB/QJT3T33NN372363FJY5EO5D63GKDKLDK/IOAFMDAPNX3S6OL2GYQQJ2FFJIRSVB3N.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/2UC2M25RQ2XRSGCBJRQ2G5SNXCROECQB/QJT3T33NN372363FJY5EO5D63GKDKLDK/IOAFMDAPNX3S6OL2GYQQJ2FFJIRSVB3N.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/2UC2M25RQ2XRSGCBJRQ2G5SNXCROECQB/QJT3T33NN372363FJY5EO5D63GKDKLDK/IOAFMDAPNX3S6OL2GYQQJ2FFJIRSVB3N.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/HBNTRIISA5MEXGL5WPYI7CV2HIWTDV3Q/YDPDINVT673XLXNSTMLG4JNCZZMVVNPN/Y7SCNZJOT2MW5ADSGOFLDGH4TNL4JCQY.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/LVPXCMXCWY3V7PSXRMGRQUJDAS2DT47E/BPEVRT2HG7PPVVUS7A67MZQQZW6LR6A5/A7AS3UPAGLC7MDVC67SBNTE5FGF2Z2RG.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/LVPXCMXCWY3V7PSXRMGRQUJDAS2DT47E/BPEVRT2HG7PPVVUS7A67MZQQZW6LR6A5/A7AS3UPAGLC7MDVC67SBNTE5FGF2Z2RG.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/LVPXCMXCWY3V7PSXRMGRQUJDAS2DT47E/BPEVRT2HG7PPVVUS7A67MZQQZW6LR6A5/A7AS3UPAGLC7MDVC67SBNTE5FGF2Z2RG.ttf")
+      format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/ZME55SZ3XN6FJ6WZ26BVFLFSAZ5I2VWW/YETVURK7HXO34ARWAMVG6MSPWALMBOUD/SMQAIKPHV4D6DU77XSDVYN543XEEYX6R.ttf")
+      format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/AGVRET5QOXLLPCSORPLO44GJZRG35CBJ/AYMVXN4GPC7UMERGPHSKTQ4F226GXMHG/LBVFQZO23LFQX5ZQMIZGDF6ODT2YI7T2.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/AGVRET5QOXLLPCSORPLO44GJZRG35CBJ/AYMVXN4GPC7UMERGPHSKTQ4F226GXMHG/LBVFQZO23LFQX5ZQMIZGDF6ODT2YI7T2.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/AGVRET5QOXLLPCSORPLO44GJZRG35CBJ/AYMVXN4GPC7UMERGPHSKTQ4F226GXMHG/LBVFQZO23LFQX5ZQMIZGDF6ODT2YI7T2.ttf")
+      format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/A54N3N7J5AY6YOPYJKLHF5VH7G7HSSUN/ERWIWIB434FMFHQFSSBD233EP3C62HOI/TOHQHMLIEIPKVF2JPM6SVKXFYGO5G2TJ.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Switzer";
+  src: url("//cdn.fontshare.com/wf/FQHNKZEV35SAMFWVFCFSORJXUNHNILL4/X4YCR4COAQTK5XB6JCDDBS7Q33AQWUAE/J7XVDQ2IJENINPUAVBDJNH3VEXVDSPQQ.woff2")
+      format("woff2"),
+    url("//cdn.fontshare.com/wf/FQHNKZEV35SAMFWVFCFSORJXUNHNILL4/X4YCR4COAQTK5XB6JCDDBS7Q33AQWUAE/J7XVDQ2IJENINPUAVBDJNH3VEXVDSPQQ.woff")
+      format("woff"),
+    url("//cdn.fontshare.com/wf/FQHNKZEV35SAMFWVFCFSORJXUNHNILL4/X4YCR4COAQTK5XB6JCDDBS7Q33AQWUAE/J7XVDQ2IJENINPUAVBDJNH3VEXVDSPQQ.ttf")
+      format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+* {
+  font-family: "Switzer";
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+:root {
+  height: 100vh;
+  max-height: 100vh;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fafbfc;
+  /* max-width: 1440px; */
+  /* margin: auto; */
+}
+
+main {
+  display: flex;
+  height: 100vh;
+
+  overflow: auto;
+}
+/* .card img {
+  width: clamp(40%, 50%, 100%);
+  height: auto;
+} */
+
+aside {
+  display: flex;
+  flex-direction: column;
+  border-inline-end: 1px solid grey;
+  padding: 1.5rem 1rem 2rem 1rem;
+  justify-content: space-between;
+  width: fit-content;
+  height: 100%;
+  /* position: fixed; */
+  /* left: 0; */
+  background-color: #fafbfc;
+}
+
+aside div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+#main-section {
+  padding: 2rem 1.8rem;
+  background-color: #fafbfc;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 92%;
+  overflow: auto;
+  /* height: 100vb; */
+  /* position: fixed; */
+
+  /* flex: 1; */
+}
+
+#home {
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+  /* padding: 19px 29px; */
+}
+section > #home > p {
+  margin: 0;
+  padding: 0;
+}
+
+#market-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.8vw;
+  line-height: 38px;
+  color: #1f1f1f;
+  margin-top: 2vw;
+}
+
+#market {
+  align-self: center;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 600;
+  font-size:clamp(28px, 2.5vw, 40px);
+  line-height: 38px;
+  /* identical to box height, or 136% */
+
+  letter-spacing: -0.01em;
+
+  color: #1f1f1f;
+}
+#first-table,
+#second-table {
+  padding: 0;
+  margin: 7px 1px;
+}
+
+.page-setting {
+  padding: 0.65rem 1rem;
+  border: 1px solid #000;
+  display: flex;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+.page-setting {
+  background: #ffffff;
+  border: 1px solid #dae0e6;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 5px;
+}
+.page-setting > p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1f1f1f;
+  font-family: 'switzer '
+  
+}
+
+.market-paragraph {
+  font-weight: 400;
+  font-size: 1.111vw;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+  margin-bottom: 40px;
+}
+
+.swiper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+  overflow-x: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #eaebf0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border-radius: 10px;
+  padding: 20px;
+}
+.cash-p {
+  margin-bottom: 15px;
+}
+
+.naira {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  white-space: nowrap;
+  color: #1f1f1f;
+}
+
+.cash-p {
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.111vw;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #1f1f1f;
+}
+.decline-con {
+  display: flex;
+  gap: 2px 8px;
+  align-items: flex-start;
+}
+
+.decline {
+  height: 18px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #e2341d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  gap: 4px;
+  background: #fff2f0;
+  border-radius: 5px;
+}
+.monitored {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+ul {
+  display: flex;
+  margin-top: 47px;
+  gap: 24px;
+  border-bottom: 2px solid #fafbfc;
+  list-style: none;
+}
+
+li {
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+  white-space: no;
+}
+
+ul > li:nth-child(2) {
+  color: #d71e0e;
+  border-bottom: px solid #d71e0e;
+}
+
+ul > li > span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: -0.1px;
+  color: #1f1f1f;
+  white-space: nowrap;
+  background: #efeff1;
+  padding: 0px 6px;
+  border-radius: 20px;
+}
+
+#price-chart {
+  display: flex;
+  flex-direction: column;
+  /* overflow: auto; */
+  padding-block-end: 70px;
+  padding-block-start: 20px;
+  gap: 20px;
+  /* height: 900px; */
+  /* overflow-y: scroll;  */
+  /* scroll-behavior: smooth; */
+}
+
+.flex-table {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border-radius: 30px;
+  border-style: hidden;
+  background: white;
+  box-shadow: 0 0 0 1px rgb(217, 216, 216);
+}
+tr,
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 1px;
+}
+th,
+td {
+  padding: 10px 0;
+  text-align: left;
+  padding: 10px 20px;
+  border-block: 1px solid rgb(217, 216, 216);
+  font-family: "Switzer";
+  font-style: normal;
+  font-size: clamp(16px, 0.97vw, 40px);
+  white-space: nowrap;
+  line-height: 1.25vw;
+  font-weight: 600px;
+  letter-spacing: -0.1px;
+}
+
+th {
+  font-weight: 800;
+}
+.increase{
+  background: #e7fde9;
+}
+
+#first-table tr > td:nth-child(3),
+#second-table tr > td:nth-child(3), .increase {
+  color: #5dc264;
+}
+
+#second-table tr > td:nth-child(3) {
+  color: #e2341d;
+}
+
+.flex-table > table > tbody > tr:nth-child(1) {
+  color: #5f6d7e !important ;
+}
+
+#first-table tr > td:nth-child(4) > span {
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #259a2e;
+  padding: 4px 8px;
+  background-color: #e7fde9;
+  border-radius: 5px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+#second-table tr > td:nth-child(4) > span {
+  border-radius: 5px;
+  text-align: center;
+  padding: 4px 6px;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #e2341d;
+  background: #fff2f0;
+}
+
+.scrolling-container {
+  overflow: auto; /* Creates a scrollable container */
+  white-space: nowrap; /* Ensures that the content stays on one line */
+  animation: marquee 10s linear infinite; /* Specifies the animation */
+  animation-iteration-count: infinite;
+}
+
+/* LISTS */
+.container-three hr {
+  margin-top: 10px;
+}
+.container-three {
+  /* padding-top: 10px; */
+}
+
+.container-three ul {
+  display: flex;
+  /* padding-top: 30px; */
+  gap: 30px;
+  /* margin-left: 3px; */
+  width: 100%;
+  overflow-x: hidden;
+  /* border-bottom: 1px solid #000; */
+}
+.container-three ul li {
+  list-style-type: none;
+  font-size: clamp(10px, 1.04vw, 20px);
+  /* white-space: nowrap; */
+}
+.container-three ul a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.1px;
+  color: #5f6d7e;
+}
+.container-three li span {
+  padding: 3px 10px;
+  background: #efeff1;
+  border-radius: 20px;
+}
+.container-three li span:hover {
+  padding: 3px 10px;
+  background: #000;
+  border-radius: 20px;
+  color: #fff;
+}
+.container-three ul .book a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  /* color: #d71e0e; */
+}
+.container-three ul .book hr {
+  margin-bottom: -1px;
+  border: 0.01rem solid #d71e0e;
+}
+
+.container-three ul li a:hover {
+  color: #000;
+  /* font-weight: 700; */
+  border-bottom: 2px solid #000;
+  padding-bottom: 4px;
+}
+
+.btn {
+  background: #1f1f1f;
+  color: #fff;
+  padding: 13px 34px 14px 34px;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+}
+
+#news-scroll {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+
+  background-color: white;
+}
+.marquee-container {
+  display: flex;
+  gap: 50px;
+}
+
+.marquee-container div {
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.marquee-container div p {
+  font-weight: 400;
+}
+
+#first-table,
+#second-table {
+  inline-size: 50%;
+}
+
+.first-item figcaption {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.first-item figcaption span {
+  display: none;
+  border: 1px solid #000;
+  padding: 2px 4px;
+  border-radius: 5px;
+  color: #fff;
+  background: #000;
+  font-family: "Switzer";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
+.dashboard:hover + span {
+  display: block;
+  z-index: 1;
+}
+.trend:hover + span {
+  display: block;
+  z-index: 1;
+}
+.trend {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  background: #f3f9fe;
+  border-radius: 5px;
+}
+.portfolio:hover + span {
+  display: block;
+  z-index: 1;
+}
+.community:hover + span {
+  display: block;
+  z-index: 1;
+}
+.report:hover + span {
+  display: block;
+  z-index: 1;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1438px) {
+  .decline-con {
+    flex-direction: column;
+  }
+  .flex-table {
+    flex-direction: column;
+  }
+#first-table,
+  #second-table {
+    inline-size: 100%;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .card {
+    width: 33%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .container-three ul li {
+    font-size: 10px;
+  }
+}
